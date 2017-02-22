@@ -1,6 +1,9 @@
 docker-rstudio-server
 =====================
 
+Fork from https://github.com/mgymrek/docker-rstudio-server
+* upgrade rstudio and r version
+
 Docker image that runs rstudio server. Inspired by [this rstudio-server docker](https://registry.hub.docker.com/u/angelrr7702/rstudio), but does not include sshd. I use this image as a base for other images to provide reproducible and interactive R analyses.
 
 == Build Image ==
